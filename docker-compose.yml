@@ -1,0 +1,9 @@
+version: "3.3"
+
+services:
+  orthanc-mock:
+    build: orthanc_mock
+    ports: ["8201:8042"]
+    hostname: orthanc-mock
+    environment:
+      VERBOSE_STARTUP: "true"

@@ -1,0 +1,20 @@
+{
+  "Name": "orthanc-mock",
+  "DicomAet": "orthanc-mock",
+  "HttpsVerifyPeers": false,
+  "StorageCompression": false,
+  "LimitFindResults": 100,
+  "LimitFindInstances": 1000,
+  "KeepAlive": true,
+  "TcpNoDelay": true,
+  "StorageAccessOnFind": "Never",
+  "TranscodeDicomProtocol": true,
+  "DicomAlwaysAllowEcho": true,
+  "DicomAlwaysAllowStore": true,
+  "RemoteAccessAllowed": true,
+  "AuthenticationEnabled": false,
+  "StoreMD5ForAttachments": true,
+  "RegisteredUsers": {
+    "orthanc": "mock"
+  }
+}
